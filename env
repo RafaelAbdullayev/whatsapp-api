@@ -1,0 +1,5 @@
+# DeepSeek API Configuration
+DEEPSEEK_API_KEY="sk-08eb9672f5864f30bc20f895201cc58d"
+
+# VirusTotal API Configuration
+VIRUSTOTAL_API_KEY="sk-690e1a90ea7544de95a08f5b845cef30"
