@@ -176,18 +176,34 @@ COMMERCIAL_KEYWORDS = [
 # АЗЕРБАЙДЖАНСКИЕ МАТЫ
 AZERBAIJANI_BAD_WORDS = [
     "sik", "sikir", "sikim", "siksən", "sikər", "sikdir", "sikiş",
-    "amcıq", "amcığ", "amına", "göt", "götü", "götvərən",
+    "sikimin", "sikdiyim", "sikdiyimin", "sikmiş", "sikmək",
+    "amcıq", "amcığ", "amına", "amına qoyim", "amına qoyum",
+    "göt", "götü", "götvərən", "götvərən", "götündən",
     "qəhbə", "qehbe", "orospu", "malaş", "peyser", "peysər",
-    "siktir", "хуй", "пизда", "ебать", "блядь", "сука", "fuck", "shit"
+    "siktir", "siktir get", "siktir burdan",
+    "секс", "порно", "porno", "seks", "porq",
+    "хуй", "пизда", "ебать", "блядь", "сука", "fuck", "shit",
+    "oblo", "oblosan", "oblosun", "vərəvər", "cıqqa"
 ]
 
+# РУССКИЕ МАТЫ (РАСШИРЕННЫЙ СПИСОК)
 RUSSIAN_BAD_WORDS = [
-    "хуй", "хуя", "хуе", "хуйня", "пизда", "пизде", "ебать", "ебу",
-    "блядь", "блять", "сука", "суки", "мудак", "пидор", "шлюха"
+    "хуй", "хуя", "хуе", "хуйня", "хуила", "хуило",
+    "пизда", "пизде", "пизду", "пиздой",
+    "ебать", "ебу", "ебал", "ебаный", "ёбаный",
+    "блядь", "блять", "бля", "сука", "суки",
+    "мудак", "пидор", "шлюха", "гандон", "проститутка",
+    "нахер", "нахрен", "нахуй", "пошёл", "иди", "соси"
 ]
 
+# АНГЛИЙСКИЕ МАТЫ (РАСШИРЕННЫЙ СПИСОК)
 ENGLISH_BAD_WORDS = [
-    "fuck", "fucking", "fucker", "shit", "bitch", "dick", "pussy", "whore"
+    "fuck", "fucking", "fucker", "motherfucker", "fucked",
+    "shit", "shitting", "bullshit", "goddamn",
+    "bitch", "bitching", "son of a bitch",
+    "dick", "dickhead", "dicky",
+    "pussy", "asshole", "bastard", "whore",
+    "cunt", "cock", "wanker", "bloody"
 ]
 
 ALL_BAD_WORDS = AZERBAIJANI_BAD_WORDS + RUSSIAN_BAD_WORDS + ENGLISH_BAD_WORDS
